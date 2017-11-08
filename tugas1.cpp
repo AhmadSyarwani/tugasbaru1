@@ -10,5 +10,8 @@ int main(){
 	if (x>y){
 		z=x-y;
 		cout << " nilai x-y " << z;
+	}else if (y>x){
+		z=y-x;
+		cout << " nilai y-x " << z;
 	}
 }
