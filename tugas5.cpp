@@ -10,6 +10,8 @@ int main(){
 		cout << " Underweight/kurus ";
 	}else if (tinggi/2.5 <= berat && berat <= tinggi/2.3){
 		cout << " Normal ";
+	}else if (tinggi/2.3 < berat){
+		cout << " Overweight/gendut ";
 	}
 	
 }
