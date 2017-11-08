@@ -2,7 +2,9 @@
 using namespace std;
 
 int main(){
-	int t,b;
-	cout << " tinggi = "; cin >> t;
-	cout << " berat = "; cin >> b;
+	int tinggi,berat;
+	cout << " tinggi = "; cin >> tinggi;
+	cout << " berat = "; cin >> berat;
+	
+	
 }
