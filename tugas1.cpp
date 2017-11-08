@@ -13,5 +13,7 @@ int main(){
 	}else if (y>x){
 		z=y-x;
 		cout << " nilai y-x " << z;
+	}else {
+		cout << " tidak bisa di input ";
 	}
 }
