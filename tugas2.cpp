@@ -11,5 +11,10 @@ int main(){
 		cout << " le = "; cin >> le;
 		lu=p*le;
 		cout << " lu p adalah " << lu;
+	}else if (bidang= 's'){
+		cout << " a = "; cin >> a;
+		cout << " t = "; cin >> t;
+		lu=0.5*a*t;
+		cout << "lu s adalah " << lu;
 	}
 }
