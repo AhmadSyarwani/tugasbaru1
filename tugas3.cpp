@@ -11,5 +11,10 @@ int main(){
 		p=gt*0.15;
 		gt=gt-p;
 		cout << " ini adalah gajih kamu " << gt;
+	}else if (jk<=40){
+		gt=(gp*40);
+		p=gt*0.15;
+		gt=gt-p;
+		cout << " ini adalah gajih kamu " << gt;
 	}
 }
