@@ -7,5 +7,7 @@ int main(){
 	
 	if (angka > 0){
 		cout << angka << " ini bilangan positif ";
+	}else if (angka < 0){
+		cout << angka << " ini bilangan negatif ";
 	}
 }
