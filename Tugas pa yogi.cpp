@@ -45,5 +45,17 @@ int main(){
 	for(int i=0;i<5;i++){
 		cout << w[i]<<" | ";
 	}cout <<endl;
+	
+	cout <<endl<<endl<< "MATRIKS R * W : "<<endl;
+	double RWa1c[5],RWa2c[5],RWa3c[5]; 
+	for(int i=0;i<5;i++){
+		RWa1c[i]=Ra1c[i]*w[i]; cout << RWa1c[i] << " | ";
+	}cout <<endl;
+	for(int i=0;i<5;i++){
+		RWa2c[i]=Ra2c[i]*w[i]; cout << RWa2c[i] << " | ";
+	}cout <<endl;
+	for(int i=0;i<5;i++){
+		RWa3c[i]=Ra3c[i]*w[i]; cout << RWa3c[i] << " | ";
+	}cout <<endl;
 }
 
