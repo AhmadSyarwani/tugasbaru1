@@ -57,5 +57,13 @@ int main(){
 	for(int i=0;i<5;i++){
 		RWa3c[i]=Ra3c[i]*w[i]; cout << RWa3c[i] << " | ";
 	}cout <<endl;
+	
+		cout <<endl<< "HASIL AKHIR : "<<endl;
+	double ha1=RWa1c[0]+RWa1c[1]+RWa1c[2]+RWa1c[3]+RWa1c[4], 
+		   ha2=RWa2c[0]+RWa2c[1]+RWa2c[2]+RWa2c[3]+RWa2c[4],
+		   ha3=RWa3c[0]+RWa3c[1]+RWa3c[2]+RWa3c[3]+RWa3c[4];
+
+	cout << "Nilai A1 : "<<ha1<<endl << "Nilai A2 : "<<ha2<<endl<< "Nilai A3 : "<<ha3<<endl;
+
 }
 
