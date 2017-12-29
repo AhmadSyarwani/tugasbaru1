@@ -18,5 +18,12 @@ int main(){
 	for(int i=0;i<5;i++){
 		cout << a3c[i]<<" | ";
 	}
+	
+	cout <<endl<<endl<< "MATRIKS R : "<<endl;
+
+	double mc[5];
+	for(int i=0;i<5;i++){
+		mc[i+1]=max(a1c[i],max(a2c[i],a3c[i]));
+	}
 }
 
