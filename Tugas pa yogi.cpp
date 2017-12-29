@@ -25,5 +25,9 @@ int main(){
 	for(int i=0;i<5;i++){
 		mc[i+1]=max(a1c[i],max(a2c[i],a3c[i]));
 	}
+	
+	double Ra1c[5]={(a1c[0]/mc[1]),(a1c[1]/mc[2]),(a1c[2]/mc[3]),(a1c[3]/mc[4]),(a1c[4]/mc[5])};
+	double Ra2c[5]={(a2c[0]/mc[1]),(a2c[1]/mc[2]),(a2c[2]/mc[3]),(a2c[3]/mc[4]),(a2c[4]/mc[5])};
+	double Ra3c[5]={(a3c[0]/mc[1]),(a3c[1]/mc[2]),(a3c[2]/mc[3]),(a3c[3]/mc[4]),(a3c[4]/mc[5])};
 }
 
