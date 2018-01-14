@@ -10,6 +10,10 @@ class kuda{
 };
 
 int main (){
-	kuda kudaponi,kudabesi,kudadongeng;
+	kuda kudaponi,zebra,kudalaut,keledai;
 	
+	kudaponi.keturunan = "kecil";
+	zebra.keturunan = "warna kulit nya bergaris hitam dan putih";
+	kudalaut.keturunan = "hidup di laut";
+	keledai.keturunan = "telinga nya besar dan jalan nya lambat";
 }
