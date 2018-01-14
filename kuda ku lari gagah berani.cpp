@@ -10,5 +10,6 @@ class kuda{
 };
 
 int main (){
+	kuda kudaponi,kudabesi,kudadongeng;
 	
 }
